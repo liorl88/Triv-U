@@ -12,7 +12,7 @@ var questions=null,         /*pull of questions from api*/
     total_scores,                 /*score user gets during the game*/
     nickname,               /*user's nickname for registering the score*/
     difficulty,             /*difficulty of the game, help calculate scores for each question*/
-    max_questions_in_game = 1;  //number of questions to retrieve for each game
+    max_questions_in_game = 10;  //number of questions to retrieve for each game
 
 const CORRECT_ANSWER_POINTS = 10;
 var SECONDS_FOR_EACH_ANSWER = 10;
